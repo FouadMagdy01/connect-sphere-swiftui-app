@@ -29,9 +29,44 @@
 		8C9AB4E82DD922780026EEDB /* Connect SphereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Connect SphereUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8C9AB54D2DD92BC60026EEDB /* Exceptions for "Connect Sphere" folder in "Connect SphereTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Data/Models/Auth.swift,
+				Data/Models/Post.swift,
+				Data/Models/User.swift,
+				Data/Networking/APIService.swift,
+				Data/Networking/AuthAPIService.swift,
+				Data/Networking/HelperTypes.swift,
+				Data/Networking/PostAPIService.swift,
+				Data/Networking/UserAPIService.swift,
+			);
+			target = 8C9AB4DD2DD922780026EEDB /* Connect SphereTests */;
+		};
+		8C9AB54E2DD92BC60026EEDB /* Exceptions for "Connect Sphere" folder in "Connect SphereUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Data/Models/Auth.swift,
+				Data/Models/Post.swift,
+				Data/Models/User.swift,
+				Data/Networking/APIService.swift,
+				Data/Networking/AuthAPIService.swift,
+				Data/Networking/HelperTypes.swift,
+				Data/Networking/PostAPIService.swift,
+				Data/Networking/UserAPIService.swift,
+			);
+			target = 8C9AB4E72DD922780026EEDB /* Connect SphereUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8C9AB4D32DD922780026EEDB /* Connect Sphere */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8C9AB54D2DD92BC60026EEDB /* Exceptions for "Connect Sphere" folder in "Connect SphereTests" target */,
+				8C9AB54E2DD92BC60026EEDB /* Exceptions for "Connect Sphere" folder in "Connect SphereUITests" target */,
+			);
 			path = "Connect Sphere";
 			sourceTree = "<group>";
 		};
